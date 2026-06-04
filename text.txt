@@ -1,0 +1,133 @@
+
+===========================================================
+1. NAVIGATION (Header)
+===========================================================
+Logo: NORDIC 
+Menu: Kamperi | Lokacije | O nama
+Button: Rezerviši (Dugme sa tankim okvirom / Ghost button)
+
+===========================================================
+2. HERO
+===========================================================
+Pozadina: Video u petlji (mrdanje vode u jezeru) + svetli transparentni filter
+Title: Pobegni u tišinu.
+Subtitle: Minimalističke kamper kućice za tvoj savršen vikend u prirodi.
+Button: Pronađi svoj mir
+
+===========================================================
+3. PHILOSOPHY (O nama)
+===========================================================
+* Dosta praznog prostora sa strana (Vazdušast dizajn)
+
+Tekst (Levo): 
+Jednostavnost na točkovima. Verujemo da je luksuz u tišini, pogledu kroz 
+prozor i toploj kafi u ranom blistavom jutru. Naši kamperi su dizajnirani 
+da uspore tvoj ritam.
+
+Slike (Desno): 
+3 svetle, vertikalne fotografije u nizu (unutrašnjost kampera, svetlo drvo, 
+laneni prekrivač, sunčev zrak).
+
+===========================================================
+4. CAMPER FLIP CARDS (Naša flota)
+===========================================================
+Naslov: Izaberi svoj mirni kutak
+Podnaslov: Svi naši kamperi su opremljeni po principu skandinavskog minimalizma: sve što ti je potrebno za potpuni mir, bez suvišnih stvari.
+
+Layout: Grid sa 3 flip-kartice (Okretanje za 180° horizontalno na hover)
+
+-----------------------------------------------------------
+KARTICA 1: Nordic Mini
+-----------------------------------------------------------
+• PREDNJA STRANA:
+  - Vizual: Svetla fotografija kampera
+  - Naslov: Nordic Mini
+  - Specifikacije:
+    [ikona] Kapacitet: 2 osobe
+    [ikona] Spavanje: Fiksni bračni ležaj sa premium dušekom
+    [ikona] Sedenje: Ergonomski lounge prostor za dvoje
+    [ikona] Kuhinja: Mini integrisana kuhinja
+    [ikona] Kupatilo: Ekološki toalet i spoljni tuš sistem
+    [ikona] Struja: Nezavisno solarno napajanje
+
+• ZADNJA STRANA:
+  - Pozadina: Nežna žalfija zelena (#C2D2C4)
+  - Tekst na sredini: 90€ / noć
+  - Dugme: Rezerviši
+
+-----------------------------------------------------------
+KARTICA 2: Fjord Cabin
+-----------------------------------------------------------
+• PREDNJA STRANA:
+  - Vizual: Svetla fotografija kampera
+  - Naslov: Fjord Cabin
+  - Specifikacije:
+    [ikona] Kapacitet: 4 osobe
+    [ikona] Spavanje: Dvostruki ležajevi na sprat
+    [ikona] Sedenje: Modularni dnevni boravak za četvoro
+    [ikona] Kuhinja: Potpuno integrisana kuhinja sa duplim gorionikom
+    [ikona] Kupatilo: Ugradna tuš kabina i fiksni toalet
+    [ikona] Klima: Autonomni sistem grejanja
+
+• ZADNJA STRANA:
+  - Pozadina: Nežna žalfija zelena (#C2D2C4)
+  - Tekst na sredini: 120€ / noć
+  - Dugme: Rezerviši
+
+-----------------------------------------------------------
+KARTICA 3: Aurora Home
+-----------------------------------------------------------
+• PREDNJA STRANA:
+  - Vizual: Svetla fotografija kampera
+  - Naslov: Aurora Home
+  - Specifikacije:
+    [ikona] Kapacitet: 6 osobe
+    [ikona] Spavanje: Master ležaj pod panoramskim krovom
+    [ikona] Sedenje: Lounge zona sa otvorenim pogledom
+    [ikona] Kuhinja: Premium kuhinjski blok sa zamrzivačem
+    [ikona] Kupatilo: Komforno kupatilo sa toplom vodom
+    [ikona] Grejanje: Sistem podnog grejanja i mrežni inverter
+
+• ZADNJA STRANA:
+  - Pozadina: Nežna žalfija zelena (#C2D2C4)
+  - Tekst na sredini: 140€ / noć
+  - Dugme: Rezerviši
+
+===========================================================
+5. RECENZIJE (Testimonial)
+===========================================================
+Pozadina: Nežna plavo-siva (#E5ECEE), tekst je centriran, bez slika ljudi.
+
+“Najlepše buđenje u životu pored skrivenog jezera. Kamper miriše na 
+borovinu, a sve unutra je tako čisto, svetlo i svedeno. Vratićemo se sigurno.”
+
+Potpis: – Jelena & Marko, Beograd
+
+“Vikend bez telefona, buke i žurbe. Kamper nam je pružio potpunu slobodu da stanemo gde god poželimo, a spavanje pod panoramskim krovom je neprocenjivo iskustvo. Savršen nordijski minimalizam na točkovima.
+
+”Potpis: – Anja & Nikola, Novi Sad
+
+===========================================================
+6. VODIČ ZA BEG (Lokacije) LINKS
+===========================================================
+Naslov: Gde te put može odvesti?
+Podnaslov: Naši kamperi vole skrivena mesta. Evo nekoliko predloga za tvoj beg:
+
+01 / Zaovinska jezera (Tara) ——— Smaragdna voda i borovina
+02 / Krupajsko vrelo (Homolje) ——— Tirkizni mir i izvori
+03 / Reka Gradac (Valjevo) ——— Zvuk vode i divlja priroda
+04 / Borsko jezero (Bor) ——— Prostrane livade i tišina
+05 / Reka Rzav (Arilje) ——— Skrivene plaže i čista reka
+06 / Uvac (Nova Varoš) ——— Vidikovci iznad oblaka
+07 / Bešenovačko jezero (Fruška gora) ——— Brzi vikend reset
+
+===========================================================
+7. FOOTER (Podnožje)
+===========================================================
+Pozadina: Mlečno bela (#F9F9FB), sitan i tanak tekst.
+
+Levo: Kontakt: info@nordicvans.rs | +381 60 123 456
+Desno: Linkovi ispisani čistim tekstom (Instagram, Pinterest) - bez ikonica.
+
+© 2026 NORDIC RENTALS. Made for nomads. All rights reserved.--*presented by nordic
+===========================================================
