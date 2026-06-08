@@ -1,0 +1,96 @@
+@use "../abstracts/mixins" as *;
+@use "../abstracts/variables" as *;
+
+.equipment-heading-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem 0;
+
+  @include respond(tab-port) {
+    padding: 3rem 0;
+    gap: 2rem;
+  }
+}
+
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  padding: 0 2rem;
+
+  @include respond(tab-land) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+  @include respond(tab-port) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  @include respond(phone) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.equipment-card {
+  background-color: $color-secondary-bg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  padding: 3rem;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1.2rem;
+
+  @include respond(phone) {
+    padding: 2.5rem 2rem;
+  }
+
+  &:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+    background-color: $color-primary-bg;
+    border-color: rgba(0, 0, 0, 0.2);
+
+    @include respond(tab-port) {
+      transform: none;
+      box-shadow: none;
+    }
+  }
+  &__icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: $color-text;
+    margin-bottom: 0.5rem;
+
+    @include respond(tab-port) {
+      font-size: 1.7rem;
+    }
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    color: $color-text;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    text-align: center;
+    flex-grow: 1;
+    opacity: 0.8;
+  }
+
+  &__price {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $color-text;
+    letter-spacing: 0.05rem;
+  }
+}

@@ -1,0 +1,52 @@
+@use "../abstracts/mixins" as *;
+@use "../abstracts/variables" as *;
+
+.navigation {
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+    padding: 3rem;
+
+    @include respond(phone) {
+      flex-direction: column;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem 1rem;
+    }
+  }
+  &__link {
+    &:link,
+    &:visited {
+      text-decoration: none;
+      color: $color-text;
+      font-size: 1.2rem;
+      font-weight: 400;
+      font-family: $font-secondary;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      position: relative;
+
+      @include respond(phone) {
+        font-size: 1.4rem;
+        padding: 0.5rem 0;
+      }
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -0.6rem;
+      width: 0;
+      height: 0.01rem;
+      background-color: $color-text;
+      transition: all 0.3s ease;
+    }
+    &:hover::after,
+    &:active::after {
+      width: 100%;
+    }
+  }
+}

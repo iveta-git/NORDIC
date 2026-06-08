@@ -1,0 +1,25 @@
+@use "../abstracts/variables" as *;
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 2rem;
+  margin-bottom: 4rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-family: $font-secondary;
+
+  &__main {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: $color-text;
+  }
+  &__sub {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgba($color-text, 0.6);
+    margin-top: 0.2rem;
+  }
+}

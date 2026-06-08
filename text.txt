@@ -1,4 +1,3 @@
-
 ===========================================================
 1. NAVIGATION (Header)
 ===========================================================
@@ -9,7 +8,6 @@ Button: Rezerviši (Dugme sa tankim okvirom / Ghost button)
 ===========================================================
 2. HERO
 ===========================================================
-Pozadina: Video u petlji (mrdanje vode u jezeru) + svetli transparentni filter
 Title: Pobegni u tišinu.
 Subtitle: Minimalističke kamper kućice za tvoj savršen vikend u prirodi.
 Button: Pronađi svoj mir
@@ -17,14 +15,14 @@ Button: Pronađi svoj mir
 ===========================================================
 3. PHILOSOPHY (O nama)
 ===========================================================
-* Dosta praznog prostora sa strana (Vazdušast dizajn)
 
-Tekst (Levo): 
+Tekst: 
 Jednostavnost na točkovima. Verujemo da je luksuz u tišini, pogledu kroz 
 prozor i toploj kafi u ranom blistavom jutru. Naši kamperi su dizajnirani 
 da uspore tvoj ritam.
 
-Slike (Desno): 
+Slike: srcset="img/img-03.jpg 300w, img/img-03-large.jpg 1000w"
+              sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
 3 svetle, vertikalne fotografije u nizu (unutrašnjost kampera, svetlo drvo, 
 laneni prekrivač, sunčev zrak).
 

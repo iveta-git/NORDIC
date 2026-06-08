@@ -1,0 +1,34 @@
+@use "../abstracts/mixins" as *;
+@use "../abstracts/variables" as *;
+
+.header {
+  height: 85vh;
+  background-image:
+    linear-gradient(
+      to right bottom,
+      rgba($color-primary-bg, 0.8),
+      rgba($color-secondary-bg, 0.4)
+    ),
+    url("../img/nature-01.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  @include respond(phone) {
+    height: 70vh;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: $color-text;
+
+    @include respond(phone) {
+      width: 100%;
+      padding: 0 3rem;
+    }
+  }
+}

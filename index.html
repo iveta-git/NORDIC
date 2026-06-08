@@ -5,20 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://gstatic.com" crossorigin />
-    <link href="https://googleapis.com" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
-    <title>NORDIC | Minimalističke kamp prikolice</title>
+    <title>NORDIC | Rentals</title>
   </head>
 
   <body>
-    <div class="navigation">Nav</div>
     <header class="header">
-      <div class="header__logo-box">
-        <img src="img/logo.png" alt="Logo" class="header__logo" />
+      <div class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Naša priča</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Istražite flotu</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Dodatna oprema</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="logo">
+        <span class="logo__main">Nordic</span>
+        <span class="logo__sub">Rentals</span>
       </div>
       <div class="header__text-box">
         <h1 class="heading-primary">
@@ -27,28 +48,341 @@
             >Minimalističke kamper kućice za tvoj savršen vikend u prirodi.
           </span>
         </h1>
-        <a href="section-tours" class="btn"></a>
+
+        <a href="#" class="btn btn--primary btn--animated">Pronađi svoj mir</a>
       </div>
-      <a href="#" class="btn">Pronađi svoj mir</a>
     </header>
 
     <main>
-      <section class="philosophy">O nama</section>
-      <section class="flip-cards">Naše flote</section>
-      <section class="testiomonial">Recenzije</section>
-      <section class="location-link">Lokacije Kuda sa nama?</section>
+      <section class="section-about">
+        <div class="gallery">
+          <div class="composition">
+            <img
+              alt="Photo 1"
+              class="composition__photo composition__photo--p1"
+              src="img/img-01.jpg"
+            />
+            <img
+              alt="Photo 2"
+              class="composition__photo composition__photo--p2"
+              src="img/img-02.jpg"
+            />
+            <img
+              alt="Photo 3"
+              class="composition__photo composition__photo--p3"
+              src="img/img-03.jpg"
+            />
+          </div>
+
+          <div class="about__text-box">
+            <h2 class="heading-secondary">Naša priča</h2>
+            <p class="paragraph">
+              NORDIC rentals je nastao iz želje da stvorimo savršeno utočište u
+              prirodi - minimalističke kamper kućice koje kombinuju
+              funkcionalnost i estetiku. Naše kućice su pažljivo dizajnirane da
+              pruže udobnost i praktičnost, omogućavajući vam da se povežete sa
+              prirodom bez kompromisa. Bilo da tražite miran vikend ili avanturu
+              na otvorenom, NORDIC rentals je tu da vam ponudi nezaboravno
+              iskustvo.
+            </p>
+            <a href="#" class="btn-text">Saznaj više &rarr;</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cards">
+        <div class="cards-heading-box">
+          <h2 class="heading-secondary">Izaberi svoj mirni kutak</h2>
+        </div>
+        <div class="row">
+          <div class="card">
+            <div class="card__picture">
+              <img
+                src="img/camper-01.jpg"
+                alt="Nordic Mini kamp kućica"
+                class="card__img"
+              />
+            </div>
+
+            <h4 class="card__heading">
+              <span class="card__heading-span">Nordic Mini</span>
+            </h4>
+
+            <div class="card__details">
+              <ul>
+                <li>2 osobe</li>
+                <li>10m²</li>
+                <li>Osnovna oprema</li>
+              </ul>
+            </div>
+
+            <div class="card__cta card__cta--1">
+              <div class="card__price-box">
+                <p class="card__price-only">Samo</p>
+                <p class="card__price-value">50€</p>
+              </div>
+              <a href="#" class="btn btn--white">Rezerviši sada</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__picture">
+              <img
+                src="img/camper-02.jpg"
+                alt="Fjord kamp kućica"
+                class="card__img"
+              />
+            </div>
+
+            <h4 class="card__heading">
+              <span class="card__heading-span">Fjord Cabin</span>
+            </h4>
+
+            <div class="card__details">
+              <ul>
+                <li>4 osobe</li>
+                <li>30m²</li>
+                <li>Advanced oprema</li>
+              </ul>
+            </div>
+
+            <div class="card__cta card__cta--2">
+              <div class="card__price-box">
+                <p class="card__price-only">Samo</p>
+                <p class="card__price-value">100€</p>
+              </div>
+              <a href="#" class="btn btn--white">Rezerviši sada</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__picture">
+              <img
+                src="img/camper-03.png"
+                alt="Aurora Home kamp kućica"
+                class="card__img"
+              />
+            </div>
+
+            <h4 class="card__heading">
+              <span class="card__heading-span">Aurora Home</span>
+            </h4>
+
+            <div class="card__details">
+              <ul>
+                <li>6 osoba</li>
+                <li>50m²</li>
+                <li>Luksuzna oprema</li>
+              </ul>
+            </div>
+
+            <div class="card__cta card__cta--3">
+              <div class="card__price-box">
+                <p class="card__price-only">Samo</p>
+                <p class="card__price-value">200€</p>
+              </div>
+              <a href="#" class="btn btn--white">Rezerviši sada</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-equipment">
+        <div class="equipment-heading-box">
+          <h2 class="heading-secondary">Dodatna oprema za tvoju avanturu</h2>
+        </div>
+
+        <div class="equipment-grid">
+          <div class="equipment-card">
+            <div class="equipment-card__icon">🚲</div>
+            <h3 class="equipment-card__title">Premium Bicikli</h3>
+            <p class="equipment-card__text">
+              Dva planinska bicikla sa zaštitnom opremom za istraživanje
+              skrivenih šumskih staza.
+            </p>
+            <span class="equipment-card__price">15€ / dan</span>
+          </div>
+          <div class="equipment-card">
+            <div class="equipment-card__icon">⛺</div>
+            <h3 class="equipment-card__title">Dodatni Šator</h3>
+            <p class="equipment-card__text">
+              Prostran i vodootporan šator za dve osobe, idealan za decu ili
+              goste koji žele spavanje pod vedrim nebom.
+            </p>
+            <span class="equipment-card__price">20€ / boravak</span>
+          </div>
+          <div class="equipment-card">
+            <div class="equipment-card__icon">🔥</div>
+            <h3 class="equipment-card__title">Logorska Vatra Set</h3>
+            <p class="equipment-card__text">
+              Suva drva za vatru, ekološki pokretač plamena i kompletan set za
+              pečenje slezove jastučića.
+            </p>
+            <span class="equipment-card__price">10€ / paket</span>
+          </div>
+          <div class="equipment-card">
+            <div class="equipment-card__icon">🐾</div>
+            <h3 class="equipment-card__title">Pet-Friendly Paket</h3>
+            <p class="equipment-card__text">
+              Udoban jastuk za spavanje, posude za hranu i vodu, kao i organske
+              poslastice dobrodošlice.
+            </p>
+            <span class="equipment-card__price">5€ / dan</span>
+          </div>
+          <div class="equipment-card">
+            <div class="equipment-card__icon">🎬</div>
+            <h3 class="equipment-card__title">Bioskop pod Zvezdama</h3>
+            <p class="equipment-card__text">
+              Prenosivi projektor visoke rezolucije, platno na razvlačenje i
+              Bluetooth zvučnik za filmsku noć.
+            </p>
+            <span class="equipment-card__price">25€ / veče</span>
+          </div>
+          <div class="equipment-card">
+            <div class="equipment-card__icon">🛶</div>
+            <h3 class="equipment-card__title">Avantura na Vodi</h3>
+            <p class="equipment-card__text">
+              Stabilna SUP daska ili kajak na naduvavanje sa veslima i prslucima
+              za spašavanje.
+            </p>
+            <span class="equipment-card__price">30€ / dan</span>
+          </div>
+          <div class="equipment-card">
+            <div class="equipment-card__icon">🔭</div>
+            <h3 class="equipment-card__title">Astronomski Teleskop</h3>
+            <p class="equipment-card__text">
+              Profesionalni teleskop sa mapom sazvežđa za kristalno jasan pogled
+              na zvezde i planete.
+            </p>
+            <span class="equipment-card__price">15€ / veče</span>
+          </div>
+          <div class="equipment-card">
+            <div class="equipment-card__icon">🎒</div>
+            <h3 class="equipment-card__title">Hajking Oprema</h3>
+            <p class="equipment-card__text">
+              Profesionalni ranci, teleskopski štapovi za šetnju, termos boce i
+              detaljna mapa lokalnih vidikovaca.
+            </p>
+            <span class="equipment-card__price">8€ / dan</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-testiomonials">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop playsinline>
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            Your browsers is not supported!
+          </video>
+        </div>
+
+        <div class="testimonial">
+          <h2 class="heading-secondary testimonial__heading">
+            Utisci naših gostiju
+          </h2>
+        </div>
+        <p class="testimonial__text">
+          "NORDIC rentals je bio savršen izbor za naš vikend u prirodi. Kamper
+          kućica je bila udobna, dobro opremljena i pružila nam je savršeno
+          mesto za opuštanje. Jedva čekamo da se vratimo!"
+        </p>
+        <p class="testimonial__author">- Ana M., Beograd</p>
+        <p class="testimonial__text">
+          "Oduševljeni smo našim iskustvom sa NORDIC rentals! Kamper kućica je
+          bila moderna, čista i savršeno smeštena. Dodatna oprema nam je
+          omogućila da maksimalno uživamo u prirodi. Topla preporuka!"
+        </p>
+        <p class="testimonial__author">- Marko P., Novi Sad</p>
+      </section>
+
+      <section class="section-location-links">
+        <div class="location-wrapper">
+          <div class="location-intro">
+            <h2 class="heading-secondary">Kuda sa nama?</h2>
+            <p class="paragraph">
+              Naše mobilne kućice pružaju potpunu slobodu izbora. Možete ih
+              postaviti na neku od najlepših prirodnih destinacija, u zavisnosti
+              od ambijenta koji najviše odgovara vašem senzibilitetu i
+              planiranom odmoru.
+            </p>
+          </div>
+
+          <div class="location-links-box">
+            <div class="location-item">
+              <a href="#" class="location-item__link"
+                >Nacionalni park Tara <span>&rarr;</span></a
+              >
+              <p class="location-item__desc">
+                Guste borove šume, skriveni vidikovci i mir nadomak kanjona
+                Drine.
+              </p>
+            </div>
+
+            <div class="location-item">
+              <a href="#" class="location-item__link"
+                >Zlatiborski vidici <span>&rarr;</span></a
+              >
+              <p class="location-item__desc">
+                Prostrani, otvoreni pašnjaci udaljeni od turističkog centra.
+              </p>
+            </div>
+
+            <div class="location-item">
+              <a href="#" class="location-item__link"
+                >Zaovinsko jezero <span>&rarr;</span></a
+              >
+              <p class="location-item__desc">
+                Smaragdna planinska voda idealna za jutarnje buđenje na obali.
+              </p>
+            </div>
+
+            <div class="location-item">
+              <a href="#" class="location-item__link"
+                >Planina Zlatar <span>&rarr;</span></a
+              >
+              <p class="location-item__desc">
+                Netaknuta priroda, lekoviti vazduh i blizina meandara Uvca.
+              </p>
+            </div>
+
+            <div class="location-item">
+              <a href="#" class="location-item__link"
+                >Rtanj & Rudnik <span>&rarr;</span></a
+              >
+              <p class="location-item__desc">
+                Misteriozne staze i pitomi šumadijski vrhovi za spavanje pod
+                zvezdama.
+              </p>
+            </div>
+
+            <div class="location-item">
+              <a href="#" class="location-item__link"
+                >Fruška gora & Maljen <span>&rarr;</span></a
+              >
+              <p class="location-item__desc">
+                Guste šume nadomak grada, vinarije i savršen brzi vikend beg.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-      <div class="footer__logo-box">
-        <span class="footer__brand-logo">NORDIC</span>
+      <div class="logo">
+        <span class="logo__main">Nordic</span>
+        <span class="logo__sub">Rentals</span>
       </div>
 
-      <div class="row">
+      <div class="footer__content">
         <div class="footer__navigation">
           <ul class="footer__list">
             <li class="footer__item">
-              <a href="#" class="footer__link">Flota</a>
+              <a href="#" class="footer__link">Naša priča</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Istražite flotu</a>
             </li>
             <li class="footer__item">
               <a href="#" class="footer__link">Dodatna oprema</a>
@@ -56,14 +390,12 @@
             <li class="footer__item">
               <a href="#" class="footer__link">Uslovi najma</a>
             </li>
-            <li class="footer__item">
-              <a href="#" class="footer__link">FAQ</a>
-            </li>
           </ul>
         </div>
-        <div class="copyright">
-          <p class="footer__copyright">
-            &copy; 2026 NORDIC rentals. Sva prava zadržana.
+        <div class="footer__copyright">
+          <p class="footer__copyright-text">
+            &copy; 2026 NORDIC Rentals. Sva prava zadržana. <br />
+            Dizajnirano sa fokusom na minimalizam i prirodu.
           </p>
         </div>
       </div>

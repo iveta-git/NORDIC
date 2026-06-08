@@ -1,0 +1,77 @@
+@use "../abstracts/mixins" as *;
+@use "../abstracts/variables" as *;
+
+body {
+  font-family: $font-primary;
+  font-weight: 400;
+  font-size: $default-font-size;
+  line-height: 1.6;
+  color: $color-text;
+}
+
+.heading-primary {
+  color: $color-text;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 4rem;
+
+  &--main {
+    display: block;
+    font-size: 3.2rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    @include respond(phone) {
+      font-size: 3rem;
+      letter-spacing: 1rem;
+    }
+  }
+
+  &--sub {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    @include respond(phone) {
+      letter-spacing: 0.5rem;
+    }
+  }
+}
+
+.heading-secondary {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 4rem;
+  display: inline-block;
+  text-align: center;
+  background-image: linear-gradient(to right, $color-text, $color-accent);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.2s;
+
+  @include respond(tab-port) {
+    font-size: 3rem;
+  }
+
+  @include respond(phone) {
+    font-size: 2.5rem;
+  }
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+}

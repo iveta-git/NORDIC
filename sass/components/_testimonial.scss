@@ -1,0 +1,38 @@
+@use "../abstracts/variables" as *;
+
+.testimonial,
+.testimonial__text,
+.testimonial__author {
+  position: relative;
+  z-index: 10;
+  max-width: 80rem;
+}
+
+.testimonial {
+  margin-bottom: 4rem;
+
+  &__heading {
+    margin-bottom: 0;
+  }
+}
+
+.testimonial__text {
+  font-size: 1.8rem;
+  font-style: italic;
+  color: $color-text;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+
+  &:not(:first-of-type) {
+    margin-top: 4rem;
+  }
+}
+
+.testimonial__author {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $color-accent;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0;
+}
